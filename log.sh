@@ -29,3 +29,5 @@ jres=`git log --no-merges --since="$std" --until="$edd"\
         perl -pe 's/},]/}]/'`
 
 echo $jres > ~/gitlog/`date +%F`/$Time-author.json
+
+open  ~/gitlog/`date +%F`/
